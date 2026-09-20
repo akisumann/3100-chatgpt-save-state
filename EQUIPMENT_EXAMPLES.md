@@ -1,8 +1,8 @@
 # Equipment Design Examples
 
-These are calibration examples for the equipment system. They do **not** import the source character or any unrelated setting into the 3100 world canon.
+These examples are used to calibrate the equipment system. 氷室 began as a calibration import, but has now been explicitly canonized into the 3100 world. Only the details recorded in the 3100 files are canon; unrelated source-setting background is not imported automatically.
 
-## 氷室 calibration example: 《アイススパイクアーマー》
+## 氷室: 《アイススパイクアーマー》
 
 **Lv50-equivalent major equipment**
 
@@ -27,12 +27,14 @@ This is intentionally much lower than the roughly +238 full raw-stat potential o
 
 The physical structure does not fundamentally make the user's base shell much tougher, so its raw DEF increase should remain modest. Likewise, exposed spikes can add impact and penetration to a spinning charge, but should not receive sword-like offensive values simply because they are sharp.
 
-This example is a benchmark for the broader rule that highly specialized equipment can have relatively low raw stat bonuses while spending most of its level-equivalent performance budget on movement, control, interaction with an existing ability, or other special functionality.
+This remains a benchmark for the broader rule that highly specialized equipment can have relatively low raw stat bonuses while spending most of its level-equivalent performance budget on movement, control, interaction with an existing ability, or other special functionality.
 
-## 氷室 calibration loadout direction
+## 氷室 loadout direction
 
-- Major equipment slot 1: 《アイススパイクアーマー》 as above.
-- Major equipment slot 2: keep the previously discussed second-equipment concept; do not replace it with a new unrelated weapon merely for variety.
-- Accessory slot: use a **regeneration-oriented and/or resistance-granting accessory** rather than another offensive tool.
+- Major equipment slot 1: 《アイススパイクアーマー》.
+- Major equipment slot 2: 《衝撃逃がしの重装》, focused on HP/DEF/SPD and reducing collision/knockback/sudden-stop load.
+- Accessory slot: a **regeneration-oriented and/or resistance-granting accessory** rather than another offensive tool.
 
-The accessory should take advantage of the system rule that accessories can spend most or all of their 40% potential budget on special properties. For this loadout, suitable special-property directions include passive regeneration, recovery support, damage-type resistance, elemental resistance, status resistance, or a combination of these. The exact accessory name and numerical split are not fixed yet.
+The accessory should take advantage of the system rule that accessories can spend most or all of their 40% potential budget on special properties. For this loadout, suitable special-property directions include passive regeneration, recovery support, damage-type resistance, elemental resistance, status resistance, or a combination of these. The exact accessory name and final effect split are not fixed yet.
+
+For the full canon character sheet, see `characters/HIMURO.md`.
