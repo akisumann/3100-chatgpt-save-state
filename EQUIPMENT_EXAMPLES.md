@@ -28,3 +28,11 @@ This is intentionally much lower than the roughly +238 full raw-stat potential o
 The physical structure does not fundamentally make the user's base shell much tougher, so its raw DEF increase should remain modest. Likewise, exposed spikes can add impact and penetration to a spinning charge, but should not receive sword-like offensive values simply because they are sharp.
 
 This example is a benchmark for the broader rule that highly specialized equipment can have relatively low raw stat bonuses while spending most of its level-equivalent performance budget on movement, control, interaction with an existing ability, or other special functionality.
+
+## 氷室 calibration loadout direction
+
+- Major equipment slot 1: 《アイススパイクアーマー》 as above.
+- Major equipment slot 2: keep the previously discussed second-equipment concept; do not replace it with a new unrelated weapon merely for variety.
+- Accessory slot: use a **regeneration-oriented and/or resistance-granting accessory** rather than another offensive tool.
+
+The accessory should take advantage of the system rule that accessories can spend most or all of their 40% potential budget on special properties. For this loadout, suitable special-property directions include passive regeneration, recovery support, damage-type resistance, elemental resistance, status resistance, or a combination of these. The exact accessory name and numerical split are not fixed yet.
