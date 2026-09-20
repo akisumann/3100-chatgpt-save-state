@@ -79,6 +79,43 @@ The accessory slot is for smaller or more specialized items such as rings, neckl
 
 Equipment bonuses are added on top of base stats and do not change the character's level-based base-stat total.
 
+## Level-appropriate equipment power
+
+A complete set of level-appropriate equipment is intended to be extremely important in combat.
+
+As a baseline, if all three slots are filled with straightforward stat-focused gear appropriate to the character's level, their combined equipment bonus is approximately equal to the character's entire base-stat total. In other words, full level-appropriate equipment can bring the character's total numerical stat budget to roughly **double** their naked/base value.
+
+Use the following baseline equipment budget:
+
+- Equipment slot 1: up to about **40% of base-stat total**
+- Equipment slot 2: up to about **40% of base-stat total**
+- Accessory slot: up to about **20% of base-stat total**
+
+These percentages describe total stat-budget value, not a mandatory increase to every stat.
+
+Example at Lv50:
+- Base-stat total = **595**
+- Pure-stat equipment slot = about **+238**
+- Second pure-stat equipment slot = about **+238**
+- Pure-stat accessory = about **+119**
+- Full pure-stat equipment bonus = about **+595**
+- Base + full equipment = about **1190**
+
+### Stat power versus special effects
+
+Equipment can trade raw numerical bonus for special properties.
+
+A simple high-performance weapon might use essentially the full **40%** equipment-slot budget as raw stat increase.
+
+A weapon with a meaningful special effect might instead provide only around **20%** of base-stat total as raw numerical increase, with the lost numerical budget being exchanged for the special effect.
+
+The stronger or more versatile the special effect, the more raw numerical power the item may give up. This allows both of the following to be valid choices:
+
+- high-stat, simple equipment
+- lower-stat equipment with valuable unique effects
+
+The exact exchange rate for special effects is intentionally flexible and should be judged by the strength of the effect rather than by a rigid universal conversion formula.
+
 ## Level 1 baseline interpretation
 
 Lv1 does **not** mean a completely undeveloped or barely functional person, and it does not specifically mean a novice adventurer.
