@@ -81,37 +81,48 @@ Equipment bonuses are added on top of base stats and do not change the character
 
 ## Level-appropriate equipment power
 
-A complete set of level-appropriate equipment is intended to be extremely important in combat.
+Level-appropriate equipment is intended to be extremely important in combat.
 
-As a baseline, if all three slots are filled with straightforward stat-focused gear appropriate to the character's level, their combined equipment bonus is approximately equal to the character's entire base-stat total. In other words, full level-appropriate equipment can bring the character's total numerical stat budget to roughly **double** their naked/base value.
+Each of the three slots has roughly the same **overall potential budget**:
 
-Use the following baseline equipment budget:
+- Equipment slot 1: about **40% of base-stat total**
+- Equipment slot 2: about **40% of base-stat total**
+- Accessory slot: about **40% of base-stat total** in total potential
 
-- Equipment slot 1: up to about **40% of base-stat total**
-- Equipment slot 2: up to about **40% of base-stat total**
-- Accessory slot: up to about **20% of base-stat total**
+The difference is that major equipment can spend essentially all of its budget on raw numerical stats if it is a simple stat-focused item, while an accessory cannot.
 
-These percentages describe total stat-budget value, not a mandatory increase to every stat.
+An accessory inherently spends at least half of its potential on special properties. Therefore, even though its total potential is about 40% of base-stat total, its ordinary maximum raw-stat contribution is about **20% of base-stat total**, with at least the other **20%** represented by special effects.
+
+As a result, a fully equipped character with level-appropriate gear can still gain roughly another **100% of base-stat total in raw numerical bonuses** at the upper end:
+
+- major equipment 1: up to about 40% raw stats
+- major equipment 2: up to about 40% raw stats
+- accessory: up to about 20% raw stats, plus at least about 20% worth of special properties
+
+So the raw numerical total can still reach roughly double the naked/base value, while the accessory also contributes inherent utility or unique effects beyond that raw total.
 
 Example at Lv50:
 - Base-stat total = **595**
-- Pure-stat equipment slot = about **+238**
-- Second pure-stat equipment slot = about **+238**
-- Pure-stat accessory = about **+119**
-- Full pure-stat equipment bonus = about **+595**
-- Base + full equipment = about **1190**
+- Major equipment full potential = about **238** each
+- Accessory total potential = about **238**
+- Accessory raw-stat ceiling = about **119**
+- Accessory inherent special-effect share = at least about **119** worth
+- Maximum raw-stat gain across all three slots = about **595**
+- Base + maximum raw numerical equipment = about **1190**, before considering accessory special effects
+
+These percentages describe total stat-budget value, not a mandatory increase to every stat.
 
 ### Stat power versus special effects
 
-Equipment can trade raw numerical bonus for special properties.
+Major equipment can trade raw numerical bonus for special properties.
 
-A completely straightforward stat-focused item can use essentially **100% of that slot's normal numerical budget**.
+A completely straightforward stat-focused major item can use essentially **100% of that slot's normal numerical budget**.
 
-When an item has special effects, its raw numerical bonus can be reduced very flexibly. As a broad design range, a special item will often retain somewhere around **30% to 100% of its slot's normal stat budget**, depending on how strong, broad, reliable, or conditional its special effect is.
+When a major item has special effects, its raw numerical bonus can be reduced very flexibly. As a broad design range, a special item will often retain somewhere around **30% to 100% of its slot's normal stat budget**, depending on how strong, broad, reliable, or conditional its special effect is.
 
 This is not a rigid tier table. Values can sit anywhere within that range rather than being forced into fixed 100/80/60/40/30 steps.
 
-For a Lv50 major equipment slot whose full pure-stat budget is about +238, examples of the scale are:
+For a Lv50 major equipment slot whose full potential is about +238, examples of the scale are:
 
 - 100% raw-stat emphasis: about **+238**
 - 80% raw-stat emphasis: about **+190**
@@ -125,11 +136,17 @@ The exact exchange rate is deliberately fluid. A narrow or heavily conditional e
 
 ### Accessory design baseline
 
-Accessories are inherently more special-effect-oriented than the two major equipment slots.
+Accessories have the same roughly **40% total potential** as a major equipment slot, but they are inherently special-effect-oriented.
 
-Their slot budget is still about **20% of base-stat total**, but a normal accessory is assumed to spend roughly half of that budget on special properties from the start. Therefore its ordinary raw numerical bonus is often around **10% of base-stat total**, with the other roughly 10% represented by effects such as resistances, status protection, detection, recovery support, elemental assistance, conditional triggers, or similar utility.
+No matter how simple an accessory is, at least roughly **half of its potential** is tied up in special properties. Thus:
 
-This is a baseline rather than a rigid split. An accessory can retain more raw stats if it is unusually simple, or sacrifice still more raw stats for a stronger, rarer, or more specialized effect.
+- total accessory potential: about 40% of base-stat total
+- maximum ordinary raw-stat share: about 20% of base-stat total
+- minimum inherent special-effect share: about 20% of base-stat total
+
+An accessory may sacrifice even more of its raw-stat share for stronger or more specialized effects, but it does not normally convert the inherent special half back into plain stats.
+
+This makes accessories not weaker equipment, but equipment whose power is structurally expressed through effects rather than raw numbers.
 
 ### Equipment level-equivalent is variable
 
