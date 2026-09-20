@@ -14,6 +14,20 @@
 
 詳細データは `characters/HIMURO.md` を参照。
 
+## ツバキ
+
+- Lv48
+- 女性
+- 種族：ホビット
+- 年齢：21歳
+- 立場：冒険者
+- 役割：斥候／拘束／忍者
+- 評判：氷室と同じく、ならずもの・素行の悪い方面で知られている冒険者。所属地域・街・パーティなどの詳細はまだ未確定。
+
+高速機動、鎖鎌、風操作、フック移動を使って敵を拘束・撹乱する。低耐久だが、気配を薄くする装備と身代わりの護符で被弾そのものを避ける設計。
+
+詳細データは `characters/TSUBAKI.md` を参照。
+
 ---
 
 Add characters here only after they are established as part of this world's canon.
