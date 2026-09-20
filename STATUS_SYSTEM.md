@@ -65,6 +65,20 @@ This allows two characters with similar base stats to perform very differently b
 
 A character can therefore temporarily perform above the apparent level of their raw base stats without changing their underlying level or base-stat total.
 
+## Equipment slots
+
+Each character has exactly **three equipment slots**:
+
+- Equipment slot 1
+- Equipment slot 2
+- Accessory slot 1
+
+The two equipment slots are intentionally broad rather than being tied to fixed body parts. They can hold things such as a primary weapon, shield, armor, staff, magical tool, or other major piece of gear depending on the character.
+
+The accessory slot is for smaller or more specialized items such as rings, necklaces, charms, talismans, or similar magical accessories.
+
+Equipment bonuses are added on top of base stats and do not change the character's level-based base-stat total.
+
 ## Level 1 baseline interpretation
 
 Lv1 does **not** mean a completely undeveloped or barely functional person, and it does not specifically mean a novice adventurer.
