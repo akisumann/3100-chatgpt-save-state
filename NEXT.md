@@ -1,14 +1,23 @@
 # Next
 
-The canonical project file is `fantasy summoner world setting v4_1.txt` and currently contains 27 summon-character sections, ending with `泡姫`.
+## Immediate task
 
-No single next design task was locked in at this checkpoint.
+Construct the protagonist for this fantasy setting from a blank slate.
 
-## When resuming
+Nothing about the protagonist is currently fixed.
 
-1. Read `CURRENT_STATE.md` and `CORE_RULES.md`.
-2. Retrieve `fantasy summoner world setting v4_1.txt` from the user's Library.
-3. Check the end of the source and the most recently edited character before continuing.
-4. Preserve the established direction: compact worldbuilding, detailed characters, Aki as a user-controlled Lv50 summoner, and no silent rewriting of established material.
+Potential categories to establish, one by one as useful:
+- name
+- sex / gender
+- age
+- race
+- origin
+- occupation or class
+- combat ability
+- personality
+- appearance
+- social position
+- possessions / equipment
+- goals or current situation
 
-If a conflict appears, the user's newest explicit instruction wins. Otherwise use the canonical source for detailed facts and this repository for continuity state.
+Do not assume any of these before the user establishes them.
