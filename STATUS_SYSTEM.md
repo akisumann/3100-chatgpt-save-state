@@ -20,9 +20,30 @@ The setting uses exactly seven core status categories:
 - SPD: movement speed, reaction speed, and agility
 - DEX: precision, manual skill, fine control, weapon handling, and technical accuracy
 
-## Current status
+## Total status points
 
-Only the seven categories are confirmed at this stage.
+A character's seven status values add up to:
 
-The numerical or letter-grade evaluation system has not yet been fixed.
-Do not add extra core categories unless the user explicitly changes the system.
+**Level × 7**
+
+This fixes total raw status quantity by level while allowing very different distributions between characters of the same level.
+
+## F-S reference values
+
+The older F-S scale used anchor values from -4 to 25. Shift every anchor by +5 to make the scale positive, then multiply by 7 for the numerical status system.
+
+| Grade | Shifted anchor | Numerical reference |
+|---|---:|---:|
+| F | 1 | 7 |
+| E | 5 | 35 |
+| D | 10 | 70 |
+| C | 15 | 105 |
+| B | 20 | 140 |
+| A | 25 | 175 |
+| S | 30 | 210 |
+
+These are reference anchors for interpreting numerical values. Exact grade ranges between the anchors have not yet been fixed.
+
+## Rule
+
+Do not add extra core categories or change the total-point formula without an explicit user decision.
