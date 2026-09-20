@@ -45,6 +45,26 @@ Examples:
 - Lv50 → total 595
 - Lv100 → total 945
 
+## Base-status interpretation
+
+The seven core values represent the character's own underlying capability at that level.
+
+They are the character's **base stats**, before external additions such as:
+
+- weapons
+- armor
+- accessories
+- magical equipment
+- passive or active skills
+- spell effects
+- temporary buffs or debuffs
+
+Equipment and skills are layered on top of the base stats rather than being baked into the level-based total.
+
+This allows two characters with similar base stats to perform very differently because of equipment quality, skill loadout, specialization, situational effects, or temporary enhancements.
+
+A character can therefore temporarily perform above the apparent level of their raw base stats without changing their underlying level or base-stat total.
+
 ## Level 1 baseline interpretation
 
 Lv1 does **not** mean a completely undeveloped or barely functional person, and it does not specifically mean a novice adventurer.
