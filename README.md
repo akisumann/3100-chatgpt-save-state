@@ -1,22 +1,21 @@
-# ChatGPT Save State — Fantasy Summoner
+# Fantasy World Save State
 
-This repository is dedicated to one setting only: Aki's Lv1–100 fantasy summoner world.
+Repository 3100 is dedicated to one fantasy setting.
 
-Its purpose is to act as a durable manual save state for long-running ChatGPT work. It is not a raw conversation archive.
+It stores the setting's current canon, continuity rules, character roster, work position, and save history so a future ChatGPT session can resume without relying on conversational memory.
 
 ## Read order
 
-1. `CURRENT_STATE.md` — current work position
-2. `CORE_RULES.md` — stable facts and constraints
-3. `SOURCE_INDEX.md` — canonical source to retrieve for detail
-4. `ROSTER.md` — established summon roster
-5. `NEXT.md` — unresolved items and exact next action
-6. `SAVE_PROTOCOL.md` — save/load procedure
+1. `WORLD_SETTING.md` — established world framework
+2. `CURRENT_STATE.md` — current work position
+3. `CORE_RULES.md` — canon and update rules
+4. `SOURCE_INDEX.md` — canonical source map
+5. `ROSTER.md` — established characters
+6. `NEXT.md` — next work item
+7. `SAVE_PROTOCOL.md` — save/load procedure
 
-Historical checkpoints live under `saves/`.
+## Current status
 
-## Principle
+The base template fantasy world has been created. The protagonist has not yet been defined.
 
-Do not silently invent missing project facts. If a detail is absent from the checkpoint, retrieve the canonical source named in `SOURCE_INDEX.md` before changing established material.
-
-This repository is currently public. Keep private or explicit source text out of it unless the user explicitly decides otherwise.
+Do not import material from unrelated fantasy projects unless the user explicitly chooses to do so.
