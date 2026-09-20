@@ -1,21 +1,19 @@
 # Source Index
 
-## Canonical source
+## Current canonical world source
 
-Primary source in the user's ChatGPT Library:
+`WORLD_SETTING.md`
 
-`fantasy summoner world setting v4_1.txt`
+This file contains the currently established template fantasy-world framework.
 
-At the 2026-09-21 checkpoint it contains 1,698 lines and 27 summon-character sections.
+## Current character source
+
+No protagonist or character source file exists yet because the protagonist has not been defined.
 
 ## Retrieval rule
 
-Before detailed work on a specific summon character, search/read the canonical Library file rather than relying on memory or this checkpoint alone.
+Use the files in this repository as the canonical source for this setting.
 
-Use this repository for continuity, stable rules, roster awareness, current work state, and resume instructions.
+Do not pull character facts, summoning systems, or other setting elements from unrelated fantasy projects unless the user explicitly imports them.
 
-Use the canonical Library file for complete profiles, exact stats and skills, appearance, personality, speech patterns, relationships, adult details, and fine-grained wording.
-
-## Public-repository caution
-
-This repository is public at this checkpoint. Do not copy private or explicit passages from the canonical source into it unless the user explicitly asks to publish them here.
+As the setting grows, add dedicated source files here and list them in this index.
