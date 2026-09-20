@@ -22,24 +22,28 @@ The setting uses exactly seven core status categories:
 
 ## Total status points
 
-The numerical system shifts every old status value upward by +5 so that the old -4 to 25 scale becomes 1 to 30.
+The old F-S scale is first shifted upward by +5, then the resulting values are multiplied by 7.
 
-Because there are seven status categories, that baseline shift adds a total of **+35** points to every character.
+The +5 shift applies to all seven status categories. After the ×7 conversion, this adds:
 
-Therefore a character's seven status values add up to:
+**5 × 7 × 7 = 245**
 
-**Level × 7 + 35**
+to the character's old level-based total.
+
+Therefore a character's seven numerical status values add up to:
+
+**Level × 7 + 245**
 
 Equivalent form:
 
-**(Level + 5) × 7**
+**(Level + 35) × 7**
 
 Examples:
-- Lv1 → total 42
-- Lv10 → total 105
-- Lv20 → total 175
-- Lv50 → total 385
-- Lv100 → total 735
+- Lv1 → total 252
+- Lv10 → total 315
+- Lv20 → total 385
+- Lv50 → total 595
+- Lv100 → total 945
 
 ## F-S reference anchors
 
@@ -90,25 +94,34 @@ Exact integer boundary rules between every pair of grades are not fixed yet. Do 
 
 ## Converting an old F-S status spread into numerical stats
 
-When converting an existing seven-grade character card into the numerical system:
+When converting an existing seven-grade character card:
 
-1. Replace each F-S grade with its shifted anchor weight: F=1, E=4, D=6, C=9, B=14, A=21, S=30.
-2. Treat those seven values as the character's status-distribution weights.
-3. Scale the weights proportionally so that the seven numerical stats add up to that character's required total, **(Level + 5) × 7**.
-4. Round to whole numbers while keeping the required total exact.
-5. After the proportional baseline is made, add a **small amount of random variation** so the final spread is not mechanically identical to the anchor ratio.
+1. Replace each F-S grade with its numerical anchor: F=7, E=28, D=42, C=63, B=98, A=147, S=210.
+2. Add the seven anchor values.
+3. Compare that sum with the level-based target, **(Level + 35) × 7**.
+4. Adjust the small difference across the seven stats while preserving the original strength/weakness pattern and keeping each stat near its original rank anchor.
+5. Add a slight zero-sum irregularity so the final values are not mechanically identical to the anchors, while keeping the exact target total.
+
+The original old card system only treated the sum of grade values as approximately level-equivalent, so a converted card can naturally be a few points away from the level target before this adjustment.
 
 ### Small random variation rule
 
 - The random adjustment should be only a slight nudge, normally around **±1 to ±3 points per affected stat**.
 - Any points added to one stat must be removed from another so the seven-stat total never changes.
-- The adjustment should preserve the character's original strength/weakness pattern and should not casually push a stat into a clearly different rank character.
-- The purpose is only to make characters with the same letter-grade pattern feel a little less mathematically identical.
+- Preserve the character's original strength/weakness pattern and rank neighborhood.
+- The purpose is only to avoid mechanically identical stat lines.
 
-Example for a Lv50 character:
-- Required total = 385.
-- A proportional baseline such as 63 / 40 / 63 / 94 / 4 / 94 / 27 may be nudged to 64 / 41 / 62 / 95 / 3 / 92 / 28.
-- Both totals remain exactly 385.
+### Example: Lv50 card with B / C / B / A / F / A / D
+
+Direct numerical anchors:
+
+**98 / 63 / 98 / 147 / 7 / 147 / 42 = 602**
+
+Lv50 target total:
+
+**(50 + 35) × 7 = 595**
+
+So the final stat line should stay close to those anchors while removing 7 total points and adding only slight irregularity.
 
 ## Rule
 
