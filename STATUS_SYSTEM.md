@@ -105,16 +105,23 @@ Example at Lv50:
 
 Equipment can trade raw numerical bonus for special properties.
 
-A simple high-performance weapon might use essentially the full **40%** equipment-slot budget as raw stat increase.
+A completely straightforward stat-focused item can use essentially **100% of that slot's normal numerical budget**.
 
-A weapon with a meaningful special effect might instead provide only around **20%** of base-stat total as raw numerical increase, with the lost numerical budget being exchanged for the special effect.
+When an item has special effects, its raw numerical bonus can be reduced very flexibly. As a broad design range, a special item will often retain somewhere around **30% to 100% of its slot's normal stat budget**, depending on how strong, broad, reliable, or conditional its special effect is.
 
-The stronger or more versatile the special effect, the more raw numerical power the item may give up. This allows both of the following to be valid choices:
+This is not a rigid tier table. Values can sit anywhere within that range rather than being forced into fixed 100/80/60/40/30 steps.
 
-- high-stat, simple equipment
-- lower-stat equipment with valuable unique effects
+For a Lv50 major equipment slot whose full pure-stat budget is about +238, examples of the scale are:
 
-The exact exchange rate for special effects is intentionally flexible and should be judged by the strength of the effect rather than by a rigid universal conversion formula.
+- 100% raw-stat emphasis: about **+238**
+- 80% raw-stat emphasis: about **+190**
+- 60% raw-stat emphasis: about **+143**
+- 40% raw-stat emphasis: about **+95**
+- 30% raw-stat emphasis: about **+71**
+
+The remaining value is conceptually spent on special effects such as elemental damage, status effects, lifesteal, conditional boosts, defensive reactions, unusual utility, or other unique properties.
+
+The exact exchange rate is deliberately fluid. A narrow or heavily conditional effect may cost relatively little raw stat power, while a strong, reliable, broadly useful effect may require a much larger reduction.
 
 ## Level 1 baseline interpretation
 
