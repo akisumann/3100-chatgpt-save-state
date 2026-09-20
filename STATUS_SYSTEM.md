@@ -93,6 +93,8 @@ The difference is that major equipment can spend essentially all of its budget o
 
 An accessory inherently spends at least half of its potential on special properties. Therefore, even though its total potential is about 40% of base-stat total, its ordinary maximum raw-stat contribution is about **20% of base-stat total**, with at least the other **20%** represented by special effects.
 
+Unlike major equipment, an accessory may exceptionally spend **100% of its entire 40% potential budget on special properties**, giving no raw-stat bonus at all.
+
 As a result, a fully equipped character with level-appropriate gear can still gain roughly another **100% of base-stat total in raw numerical bonuses** at the upper end:
 
 - major equipment 1: up to about 40% raw stats
@@ -107,6 +109,7 @@ Example at Lv50:
 - Accessory total potential = about **238**
 - Accessory raw-stat ceiling = about **119**
 - Accessory inherent special-effect share = at least about **119** worth
+- Accessory may instead use all **238** worth of its potential on special effects and provide **0** raw-stat bonus
 - Maximum raw-stat gain across all three slots = about **595**
 - Base + maximum raw numerical equipment = about **1190**, before considering accessory special effects
 
@@ -141,10 +144,12 @@ Accessories have the same roughly **40% total potential** as a major equipment s
 No matter how simple an accessory is, at least roughly **half of its potential** is tied up in special properties. Thus:
 
 - total accessory potential: about 40% of base-stat total
-- maximum ordinary raw-stat share: about 20% of base-stat total
-- minimum inherent special-effect share: about 20% of base-stat total
+- maximum raw-stat share: about 20% of base-stat total
+- minimum special-effect share: about 20% of base-stat total
+- minimum raw-stat share: **0%**
+- maximum special-effect share: **the full 40% of base-stat total**
 
-An accessory may sacrifice even more of its raw-stat share for stronger or more specialized effects, but it does not normally convert the inherent special half back into plain stats.
+An accessory may therefore sacrifice any or all of its raw-stat share for stronger or more specialized effects. At the extreme, an accessory can be a pure-effect item with no numerical stat increase whatsoever.
 
 This makes accessories not weaker equipment, but equipment whose power is structurally expressed through effects rather than raw numbers.
 
