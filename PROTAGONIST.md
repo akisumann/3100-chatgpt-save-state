@@ -3,11 +3,12 @@
 ## Confirmed
 
 - Gender: Male
+- Age range: Young; late teens to early twenties
 
 ## Not yet decided
 
 - Name
-- Age
+- Exact age
 - Race/species
 - Birthplace / origin
 - Social status
