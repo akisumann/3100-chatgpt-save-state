@@ -45,6 +45,20 @@ Examples:
 - Lv50 → total 595
 - Lv100 → total 945
 
+## Level 1 baseline interpretation
+
+Lv1 does **not** mean a completely undeveloped or barely functional person, and it does not specifically mean a novice adventurer.
+
+The large fixed baseline represents the minimum ordinary capability a human needs simply to live as a functioning person in the world. Level growth is added on top of that pre-existing human baseline rather than creating all ability from zero.
+
+A generic Lv1 human with four D-grade stats and three E-grade stats fits the total exactly:
+
+- D = 42 × 4 = 168
+- E = 28 × 3 = 84
+- Total = **252**
+
+This is a useful example of an ordinary low-level human baseline, not a mandatory exact distribution for every Lv1 person.
+
 ## F-S reference anchors
 
 The original nonlinear F-S reference values are:
