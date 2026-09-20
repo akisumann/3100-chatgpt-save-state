@@ -22,11 +22,26 @@ The setting uses exactly seven core status categories:
 
 ## Total status points
 
-A character's seven status values add up to:
+The numerical system shifts every old status value upward by +5 so that the old -4 to 25 scale becomes 1 to 30.
 
-**Level × 7**
+Because there are seven status categories, that baseline shift adds a total of **+35** points to every character.
 
-This fixes total raw status quantity by level while allowing very different distributions between characters of the same level.
+Therefore a character's seven status values add up to:
+
+**Level × 7 + 35**
+
+Equivalent form:
+
+**(Level + 5) × 7**
+
+This preserves the same balance as the old scale after applying the universal +5 shift to all seven categories.
+
+Examples:
+- Lv1 → total 42
+- Lv10 → total 105
+- Lv20 → total 175
+- Lv50 → total 385
+- Lv100 → total 735
 
 ## F-S reference values
 
