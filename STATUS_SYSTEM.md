@@ -34,8 +34,6 @@ Equivalent form:
 
 **(Level + 5) × 7**
 
-This preserves the same balance as the old scale after applying the universal +5 shift to all seven categories.
-
 Examples:
 - Lv1 → total 42
 - Lv10 → total 105
@@ -45,45 +43,50 @@ Examples:
 
 ## F-S reference anchors
 
-The old F-S scale used anchors from -4 to 25. After shifting the scale by +5, the reference anchors become 1 to 30. The numerical system then uses ×7.
+The original nonlinear F-S reference values are:
+
+- F = -4
+- E = -1
+- D = 1
+- C = 4
+- B = 9
+- A = 16
+- S = 25
+
+After the universal +5 shift, the reference anchors become:
+
+- F = 1
+- E = 4
+- D = 6
+- C = 9
+- B = 14
+- A = 21
+- S = 30
+
+After the ×7 conversion used for the numerical status scale, the corresponding numerical anchors are:
 
 | Grade | Shifted anchor | Numerical reference |
 |---|---:|---:|
 | F | 1 | 7 |
-| E | 5 | 35 |
-| D | 10 | 70 |
-| C | 15 | 105 |
-| B | 20 | 140 |
-| A | 25 | 175 |
+| E | 4 | 28 |
+| D | 6 | 42 |
+| C | 9 | 63 |
+| B | 14 | 98 |
+| A | 21 | 147 |
 | S | 30 | 210 |
 
-These are **anchors**, not exact single-value requirements. A status is assigned the grade of the nearby band.
+These values are **reference anchors**, not exact single-value requirements.
 
-## Grade bands
+## Grade interpretation
 
-On the shifted 1–30 scale, use these approximate bands:
+A status receives the grade of the nearest appropriate anchor rather than using equal-width grade bands.
 
-- F: 1–3
-- E: 4–7
-- D: 8–12
-- C: 13–17
-- B: 18–22
-- A: 23–26
-- S: 27–30
+Because the anchor spacing is nonlinear, the grade widths are also nonlinear.
 
-Thus, for example, a shifted value of **27** already counts as **S**, because it is close enough to the S anchor at 30.
+Example:
+- shifted value 27 is much closer to S=30 than A=21, so it is treated as S.
 
-In the ×7 numerical scale, interpret the same bands approximately as:
-
-- F: 7–27
-- E: 28–55
-- D: 56–90
-- C: 91–125
-- B: 126–160
-- A: 161–188
-- S: 189–210
-
-If a later rule allows a status to exceed 210, how such over-cap values are labeled should be decided separately rather than assumed here.
+Exact integer boundary rules between every pair of grades are not fixed yet. Do not replace the nonlinear anchors with equal-width bands.
 
 ## Rule
 
