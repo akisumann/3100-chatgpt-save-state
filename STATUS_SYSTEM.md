@@ -123,6 +123,22 @@ The remaining value is conceptually spent on special effects such as elemental d
 
 The exact exchange rate is deliberately fluid. A narrow or heavily conditional effect may cost relatively little raw stat power, while a strong, reliable, broadly useful effect may require a much larger reduction.
 
+### Equipment level-equivalent is variable
+
+An item's level-equivalent is a description of that item's own overall performance, not a fixed requirement tied to the wielder's level.
+
+Real equipment is not perfectly uniform. Even nominally standardized products can vary because of materials, workmanship, finishing quality, enchantment stability, and production tolerances.
+
+Therefore equipment should often be described by a **performance range** rather than one exact level.
+
+Example:
+- A highly reputable workshop supplying near-uniform mass-produced military swords might consistently produce swords around **Lv18-Lv22 equivalent**.
+- Individual swords from that same production line can still differ slightly inside that range.
+
+This variance can be much wider for handmade, improvised, damaged, repaired, experimental, ancient, magical, or unique equipment.
+
+A character can also use equipment above or below their own level-equivalent; item level-equivalent is a property of the item, not a rule that forces matching character and equipment levels.
+
 ## Level 1 baseline interpretation
 
 Lv1 does **not** mean a completely undeveloped or barely functional person, and it does not specifically mean a novice adventurer.
