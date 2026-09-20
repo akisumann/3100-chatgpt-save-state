@@ -88,6 +88,28 @@ Example:
 
 Exact integer boundary rules between every pair of grades are not fixed yet. Do not replace the nonlinear anchors with equal-width bands.
 
+## Converting an old F-S status spread into numerical stats
+
+When converting an existing seven-grade character card into the numerical system:
+
+1. Replace each F-S grade with its shifted anchor weight: F=1, E=4, D=6, C=9, B=14, A=21, S=30.
+2. Treat those seven values as the character's status-distribution weights.
+3. Scale the weights proportionally so that the seven numerical stats add up to that character's required total, **(Level + 5) × 7**.
+4. Round to whole numbers while keeping the required total exact.
+5. After the proportional baseline is made, add a **small amount of random variation** so the final spread is not mechanically identical to the anchor ratio.
+
+### Small random variation rule
+
+- The random adjustment should be only a slight nudge, normally around **±1 to ±3 points per affected stat**.
+- Any points added to one stat must be removed from another so the seven-stat total never changes.
+- The adjustment should preserve the character's original strength/weakness pattern and should not casually push a stat into a clearly different rank character.
+- The purpose is only to make characters with the same letter-grade pattern feel a little less mathematically identical.
+
+Example for a Lv50 character:
+- Required total = 385.
+- A proportional baseline such as 63 / 40 / 63 / 94 / 4 / 94 / 27 may be nudged to 64 / 41 / 62 / 95 / 3 / 92 / 28.
+- Both totals remain exactly 385.
+
 ## Rule
 
 Do not add extra core categories or change the total-point formula without an explicit user decision.
