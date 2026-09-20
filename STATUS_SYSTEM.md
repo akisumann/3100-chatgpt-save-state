@@ -123,6 +123,14 @@ The remaining value is conceptually spent on special effects such as elemental d
 
 The exact exchange rate is deliberately fluid. A narrow or heavily conditional effect may cost relatively little raw stat power, while a strong, reliable, broadly useful effect may require a much larger reduction.
 
+### Accessory design baseline
+
+Accessories are inherently more special-effect-oriented than the two major equipment slots.
+
+Their slot budget is still about **20% of base-stat total**, but a normal accessory is assumed to spend roughly half of that budget on special properties from the start. Therefore its ordinary raw numerical bonus is often around **10% of base-stat total**, with the other roughly 10% represented by effects such as resistances, status protection, detection, recovery support, elemental assistance, conditional triggers, or similar utility.
+
+This is a baseline rather than a rigid split. An accessory can retain more raw stats if it is unusually simple, or sacrifice still more raw stats for a stronger, rarer, or more specialized effect.
+
 ### Equipment level-equivalent is variable
 
 An item's level-equivalent is a description of that item's own overall performance, not a fixed requirement tied to the wielder's level.
