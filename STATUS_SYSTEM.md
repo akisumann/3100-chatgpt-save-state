@@ -43,9 +43,9 @@ Examples:
 - Lv50 → total 385
 - Lv100 → total 735
 
-## F-S reference values
+## F-S reference anchors
 
-The older F-S scale used anchor values from -4 to 25. Shift every anchor by +5 to make the scale positive, then multiply by 7 for the numerical status system.
+The old F-S scale used anchors from -4 to 25. After shifting the scale by +5, the reference anchors become 1 to 30. The numerical system then uses ×7.
 
 | Grade | Shifted anchor | Numerical reference |
 |---|---:|---:|
@@ -57,7 +57,33 @@ The older F-S scale used anchor values from -4 to 25. Shift every anchor by +5 t
 | A | 25 | 175 |
 | S | 30 | 210 |
 
-These are reference anchors for interpreting numerical values. Exact grade ranges between the anchors have not yet been fixed.
+These are **anchors**, not exact single-value requirements. A status is assigned the grade of the nearby band.
+
+## Grade bands
+
+On the shifted 1–30 scale, use these approximate bands:
+
+- F: 1–3
+- E: 4–7
+- D: 8–12
+- C: 13–17
+- B: 18–22
+- A: 23–26
+- S: 27–30
+
+Thus, for example, a shifted value of **27** already counts as **S**, because it is close enough to the S anchor at 30.
+
+In the ×7 numerical scale, interpret the same bands approximately as:
+
+- F: 7–27
+- E: 28–55
+- D: 56–90
+- C: 91–125
+- B: 126–160
+- A: 161–188
+- S: 189–210
+
+If a later rule allows a status to exceed 210, how such over-cap values are labeled should be decided separately rather than assumed here.
 
 ## Rule
 
