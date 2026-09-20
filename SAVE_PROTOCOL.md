@@ -6,61 +6,44 @@ Repository 3100 is the save-state repository for this single fantasy setting.
 
 When the user says `ロード`, `3100から再開`, or equivalent:
 
-1. Read `CURRENT_STATE.md`.
-2. Read `CORE_RULES.md`.
-3. Read `WORLD_SETTING.md`.
+1. Read `WORLD_SETTING.md`.
+2. Read `CURRENT_STATE.md`.
+3. Read `CORE_RULES.md`.
 4. Read `SOURCE_INDEX.md`.
 5. Read `ROSTER.md`.
 6. Read `NEXT.md`.
-7. Retrieve the canonical Library source named in `SOURCE_INDEX.md` when more detail is needed.
 
-Do not reconstruct missing character facts from memory if the source can be retrieved.
+Use this repository as the canonical source for the setting unless the user explicitly supplies a newer source.
 
-## CONTINUOUS ACCUMULATION
-
-This repository is not only updated when the user explicitly says `セーブ`.
-
-As this fantasy setting grows, add newly confirmed material to repository 3100 as part of the normal workflow.
-
-Examples include:
-- world setting and geography
-- countries, cities, villages and locations
-- organizations and factions
-- races and cultures
-- magic, skills, professions and technology
-- monsters, dungeons and ecology
-- religion, economy and social rules
-- important NPCs and established characters
-- stable rules, corrections and retcons
-- any other setting fact that becomes established enough to matter later
-
-Prefer extending an appropriate existing file when practical. If a subject becomes large enough to deserve its own file, create one rather than forcing everything into a single oversized document.
-
-Do not save every casual brainstorm as canon. Add material once it is clearly adopted, confirmed, or used as part of the setting. If the user explicitly says something should be recorded, record it immediately.
-
-When new material contradicts old material, preserve the newest explicit user decision and update or remove the superseded statement so the repository does not contain two competing versions of canon.
+Do not import facts from unrelated projects.
 
 ## SAVE
 
-When the user says `セーブ` during work on this setting:
+When the user says `セーブ`:
 
-1. Update `CURRENT_STATE.md` with date, source/version, exact work position, latest completed change, important confirmed facts, and unresolved items.
-2. Update `ROSTER.md` only if the established roster changed.
-3. Update `CORE_RULES.md` only for stable user-confirmed rule changes.
-4. Update `WORLD_SETTING.md` and any other setting files with confirmed worldbuilding not yet recorded.
+1. Update `CURRENT_STATE.md` with the exact work position and newest confirmed facts.
+2. Update the appropriate setting file with newly established canon.
+3. Update `ROSTER.md` if established characters changed.
+4. Update `CORE_RULES.md` only for stable setting or workflow rules.
 5. Update `NEXT.md` with the exact next safe action.
 6. Add a checkpoint under `saves/` when the state is useful to restore later.
+
+## Continuous canon updates
+
+Do not wait for a manual save command to record newly confirmed worldbuilding. When the user clearly adopts or establishes a setting element, add it to the appropriate 3100 file promptly.
+
+Brainstormed possibilities are not canon until adopted.
 
 ## Conflict priority
 
 1. User's newest explicit instruction
-2. Current canonical source file
-3. `CORE_RULES.md` / `CURRENT_STATE.md` / current setting files
-4. Older checkpoints
+2. Newer canonical repository content
+3. Older canonical repository content
+4. Older checkpoint notes
 5. Assistant memory
 
-Assistant memory must never override a newer explicit source or instruction.
+Assistant memory must never override a newer explicit instruction or source.
 
 ## Public repository rule
 
-Repository 3100 is public at this checkpoint. Do not automatically save private, identifying, or explicit source passages here.
+Repository 3100 is public at this checkpoint. Do not automatically save private or identifying information here.
