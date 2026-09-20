@@ -6,6 +6,7 @@
 - Age range: Young; late teens to early twenties
 - Origin: Native to this fantasy world
 - No reincarnation, isekai transfer, or memories/knowledge from another world
+- Combat / class direction: Magic-oriented
 
 ## Not yet decided
 
@@ -14,8 +15,9 @@
 - Race/species
 - Birthplace
 - Social status
-- Occupation / class
+- Exact occupation / class
 - Level / combat ability
+- Magic specialization / attributes
 - Appearance
 - Personality
 - Goals
